@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\ShehanBeegum\git\LogibecAutomation\Logibec_Milestones\testng.xml</span>
+                    <span>C:\Users\ShehanBeegum\git\LogibecAuto\Logibec_MS\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 4 failed,   </span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,29 +102,25 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testCases.CrossBrowserTesting" class="method navigator-link" hash-for-method="UnitAndRoleAllocation(chrome)">UnitAndRoleAllocation(chrome)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
-                    </span>
-                    <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.testCases.CrossBrowserTesting" class="method navigator-link" hash-for-method="createUsersValidation">createUsersValidation</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.testCases.CrossBrowserTesting" class="method navigator-link" hash-for-method="filterRecords_StretcherBedCategories">filterRecords_StretcherBedCategories</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.testCases.CrossBrowserTesting" class="method navigator-link" hash-for-method="sortingAndDeleting_StrBedCat">sortingAndDeleting_StrBedCat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.testCases.CrossBrowserTesting" class="method navigator-link" hash-for-method="stretcherBedCategories">stretcherBedCategories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.testCases.CrossBrowserTesting" class="method navigator-link" hash-for-method="urlLaunch(chrome)">urlLaunch(chrome)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Suite -->
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -144,18 +140,47 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="UnitAndRoleAllocation(chrome)">
-                  </a> <!-- UnitAndRoleAllocation(chrome) -->
-                  <span class="method-name">UnitAndRoleAllocation</span>
-                  <span class="parameters">(chrome)</span>
+                  <a name="filterRecords_StretcherBedCategories">
+                  </a> <!-- filterRecords_StretcherBedCategories -->
+                  <span class="method-name">filterRecords_StretcherBedCategories</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//span[@class=&apos;ag-icon ag-icon-menu&apos;])[1]&quot;}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAC-AZR-228&apos;, ip: &apos;192.168.29.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a8fdc07320bf6c1396e9935e757f383
+*** Element info: {Using=xpath, value=(//span[@class=&apos;ag-icon ag-icon-menu&apos;])[1]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.baseClass.BaseClass_Logibec.filter(BaseClass_Logibec.java:643)
+	at com.testCases.CrossBrowserTesting.filterRecords_StretcherBedCategories(CrossBrowserTesting.java:1525)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sortingAndDeleting_StrBedCat">
+                  </a> <!-- sortingAndDeleting_StrBedCat -->
+                  <span class="method-name">sortingAndDeleting_StrBedCat</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[contains(@src,&apos;portal.svg&apos;)]&quot;}
   (Session info: chrome=110.0.5481.178)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;MAC-AZR-228&apos;, ip: &apos;10.212.134.206&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+System info: host: &apos;MAC-AZR-228&apos;, ip: &apos;192.168.29.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6680afc4c1a636fb7afa7d8459e1db6d
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a8fdc07320bf6c1396e9935e757f383
 *** Element info: {Using=xpath, value=//img[contains(@src,&apos;portal.svg&apos;)]}
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
@@ -167,27 +192,44 @@ Session ID: 6680afc4c1a636fb7afa7d8459e1db6d
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.baseClass.BaseClass_Logibec.clickingMainMenu(BaseClass_Logibec.java:365)
-	at com.baseClass.BaseClass_Logibec.navigateToManagementMenu(BaseClass_Logibec.java:765)
-	at com.testCases.CrossBrowserTesting.navigateToUsers(CrossBrowserTesting.java:392)
-	at com.testCases.CrossBrowserTesting.UnitAndRoleAllocation(CrossBrowserTesting.java:665)
+	at com.baseClass.BaseClass_Logibec.clickingMainMenu(BaseClass_Logibec.java:366)
+	at com.baseClass.BaseClass_Logibec.navigateToManagementMenu(BaseClass_Logibec.java:766)
+	at com.testCases.CrossBrowserTesting.navigateToStretcherBedCategories(CrossBrowserTesting.java:1327)
+	at com.testCases.CrossBrowserTesting.sortingAndDeleting_StrBedCat(CrossBrowserTesting.java:1638)
 ... Removed 30 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.testCases.CrossBrowserTesting</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="createUsersValidation">
-                  </a> <!-- createUsersValidation -->
-                  <span class="method-name">createUsersValidation</span>
+                  <a name="stretcherBedCategories">
+                  </a> <!-- stretcherBedCategories -->
+                  <span class="method-name">stretcherBedCategories</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//img[contains(@src,&apos;portal.svg&apos;)]&quot;}
+  (Session info: chrome=110.0.5481.178)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAC-AZR-228&apos;, ip: &apos;192.168.29.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a8fdc07320bf6c1396e9935e757f383
+*** Element info: {Using=xpath, value=//img[contains(@src,&apos;portal.svg&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.baseClass.BaseClass_Logibec.clickingMainMenu(BaseClass_Logibec.java:366)
+	at com.baseClass.BaseClass_Logibec.navigateToManagementMenu(BaseClass_Logibec.java:766)
+	at com.testCases.CrossBrowserTesting.navigateToStretcherBedCategories(CrossBrowserTesting.java:1327)
+	at com.testCases.CrossBrowserTesting.stretcherBedCategories(CrossBrowserTesting.java:1378)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -196,14 +238,32 @@ Session ID: 6680afc4c1a636fb7afa7d8459e1db6d
                   </a> <!-- urlLaunch(chrome) -->
                   <span class="method-name">urlLaunch</span>
                   <span class="parameters">(chrome)</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: net::ERR_CONNECTION_TIMED_OUT
+  (Session info: chrome=110.0.5481.178)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAC-AZR-228&apos;, ip: &apos;192.168.29.70&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.178, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\SHEHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53745}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9a8fdc07320bf6c1396e9935e757f383
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at com.baseClass.BaseClass_Logibec.UrlLaunch(BaseClass_Logibec.java:247)
+	at com.testCases.CrossBrowserTesting.urlLaunch(CrossBrowserTesting.java:81)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ShehanBeegum\git\LogibecAutomation\Logibec_Milestones\testng.xml</span>
+            <span class="header-content">C:\Users\ShehanBeegum\git\LogibecAuto\Logibec_MS\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -216,7 +276,7 @@ Session ID: 6680afc4c1a636fb7afa7d8459e1db6d
   &lt;groups&gt;
     &lt;run&gt;
       &lt;include name=&quot;Common&quot;/&gt;
-      &lt;include name=&quot;Users&quot;/&gt;
+      &lt;include name=&quot;StretcherBedCategories&quot;/&gt;
     &lt;/run&gt;
   &lt;/groups&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;ChromeTest&quot;&gt;
@@ -255,14 +315,18 @@ Session ID: 6680afc4c1a636fb7afa7d8459e1db6d
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
             <div class="test-group">
-              <span class="test-group-name">Users</span>
+              <span class="test-group-name">StretcherBedCategories</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">UnitAndRoleAllocation</span>
+                <span class="method-in-group-name">filterRecords_StretcherBedCategories</span>
                 <br/>
               </div> <!-- method-in-group -->
               <div class="method-in-group">
-                <span class="method-in-group-name">createUsersValidation</span>
+                <span class="method-in-group-name">sortingAndDeleting_StrBedCat</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">stretcherBedCategories</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -282,24 +346,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createUsersValidation')
+data.setCell(0, 1, 'urlLaunch')
 data.setCell(0, 2, 'com.testCases.CrossBrowserTesting')
-data.setCell(0, 3, 208696);
+data.setCell(0, 3, 45892);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'urlLaunch')
+data.setCell(1, 1, 'filterRecords_StretcherBedCategories')
 data.setCell(1, 2, 'com.testCases.CrossBrowserTesting')
-data.setCell(1, 3, 17839);
+data.setCell(1, 3, 2034);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'UnitAndRoleAllocation')
+data.setCell(2, 1, 'stretcherBedCategories')
 data.setCell(2, 2, 'com.testCases.CrossBrowserTesting')
-data.setCell(2, 3, 4571);
+data.setCell(2, 3, 29);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sortingAndDeleting_StrBedCat')
+data.setCell(3, 2, 'com.testCases.CrossBrowserTesting')
+data.setCell(3, 3, 16);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 47 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -314,7 +382,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">347 ignored methods</span>
+            <span class="header-content">346 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -418,9 +486,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">codeColumnsValidationBloodpressureQualitative</span>
                 <br/>
-                <span class="ignored-method-name">duplicateErrorValiadtionReturnhomeReferredServices</span>
-                <br/>
                 <span class="ignored-method-name">verifyingTheFilterSpecialActivitiesConfiguration</span>
+                <br/>
+                <span class="ignored-method-name">duplicateErrorValiadtionReturnhomeReferredServices</span>
                 <br/>
                 <span class="ignored-method-name">VerifyingTheErrorsSpecialActivitiesConfiguration</span>
                 <br/>
@@ -532,9 +600,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">navigateToReorientedDepartureAlternativeRessource</span>
                 <br/>
-                <span class="ignored-method-name">filteringRecords</span>
-                <br/>
                 <span class="ignored-method-name">sortingAndDeletingGasResultsCorrespondence</span>
+                <br/>
+                <span class="ignored-method-name">filteringRecords</span>
                 <br/>
                 <span class="ignored-method-name">codeColumnsValidationOxygenadministrationmethod</span>
                 <br/>
@@ -583,6 +651,8 @@ return data;
                 <span class="ignored-method-name">navigateToAllergicsreaction</span>
                 <br/>
                 <span class="ignored-method-name">sortingAndDeletingClinicalstatus</span>
+                <br/>
+                <span class="ignored-method-name">UnitAndRoleAllocation</span>
                 <br/>
                 <span class="ignored-method-name">createingNewRecordCriticalPatients</span>
                 <br/>
@@ -638,6 +708,8 @@ return data;
                 <br/>
                 <span class="ignored-method-name">duplicateErrorAbsencereasons</span>
                 <br/>
+                <span class="ignored-method-name">createUsersValidation</span>
+                <br/>
                 <span class="ignored-method-name">duplicateErrorValiadtion</span>
                 <br/>
                 <span class="ignored-method-name">filterRecords_absenceReason</span>
@@ -689,8 +761,6 @@ return data;
                 <span class="ignored-method-name">rolesScreen</span>
                 <br/>
                 <span class="ignored-method-name">Consultation_filterAndDeletion</span>
-                <br/>
-                <span class="ignored-method-name">filterRecords_StretcherBedCategories</span>
                 <br/>
                 <span class="ignored-method-name">TransferReason_Creation</span>
                 <br/>
@@ -812,8 +882,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">creatingNewRecordSpecialActivitiesConfiguration</span>
                 <br/>
-                <span class="ignored-method-name">sortingAndDeleting_StrBedCat</span>
-                <br/>
                 <span class="ignored-method-name">frequency_Validation</span>
                 <br/>
                 <span class="ignored-method-name">createingNewRecordRapDepistage5</span>
@@ -854,9 +922,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">validatingTheError</span>
                 <br/>
-                <span class="ignored-method-name">duplicateRecordReorientedDepartureAlternativeRessource</span>
-                <br/>
                 <span class="ignored-method-name">duplicateErrorValiadtionTransferEscort</span>
+                <br/>
+                <span class="ignored-method-name">duplicateRecordReorientedDepartureAlternativeRessource</span>
                 <br/>
                 <span class="ignored-method-name">OACISAdditionalInformation_Validation</span>
                 <br/>
@@ -872,9 +940,9 @@ return data;
                 <br/>
                 <span class="ignored-method-name">navigateToSensitivitytoAllergens</span>
                 <br/>
-                <span class="ignored-method-name">createingNewRecordReasonsForCodeOrange</span>
-                <br/>
                 <span class="ignored-method-name">ConsultantCall_filterRecords</span>
+                <br/>
+                <span class="ignored-method-name">createingNewRecordReasonsForCodeOrange</span>
                 <br/>
                 <span class="ignored-method-name">VerifyingTheErrorsDosagegroups</span>
                 <br/>
@@ -944,13 +1012,13 @@ return data;
                 <br/>
                 <span class="ignored-method-name">createingNewRecordReturnhomeTypesofdischarge</span>
                 <br/>
-                <span class="ignored-method-name">duplicateErrorValiadtionAbsenceReasonsScreeninTools</span>
-                <br/>
-                <span class="ignored-method-name">VerifyingTheErrorsPerfusionType</span>
+                <span class="ignored-method-name">diagnosisValidation</span>
                 <br/>
                 <span class="ignored-method-name">duplicateErrorValiadtionBloodpressureQualitative</span>
                 <br/>
-                <span class="ignored-method-name">diagnosisValidation</span>
+                <span class="ignored-method-name">VerifyingTheErrorsPerfusionType</span>
+                <br/>
+                <span class="ignored-method-name">duplicateErrorValiadtionAbsenceReasonsScreeninTools</span>
                 <br/>
                 <span class="ignored-method-name">navigateToTransferPatientlist</span>
                 <br/>
@@ -996,8 +1064,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">createingNewRecordHospitalizationReasonforcancellation</span>
                 <br/>
-                <span class="ignored-method-name">stretcherBedCategories</span>
-                <br/>
                 <span class="ignored-method-name">createingNewRecordInstitutionmissions</span>
                 <br/>
                 <span class="ignored-method-name">checkDomainErrorMessage</span>
@@ -1030,22 +1096,32 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">urlLaunch(chrome)</span>
-                <span class="method-start">30 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">createUsersValidation</span>
-                <span class="method-start">17873 ms</span>
+                <span class="method-start">38 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">UnitAndRoleAllocation(chrome)</span>
-                <span class="method-start">226573 ms</span>
+                <span class="method-name">stretcherBedCategories</span>
+                <span class="method-start">78156 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">filterRecords_StretcherBedCategories</span>
+                <span class="method-start">110273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sortingAndDeleting_StrBedCat</span>
+                <span class="method-start">144421 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">242939 ms</span>
+                <span class="method-start">176570 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

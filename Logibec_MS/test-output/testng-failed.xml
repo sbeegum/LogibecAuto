@@ -9,15 +9,18 @@
     <groups>
       <run>
         <include name="Common"/>
-        <include name="Users"/>
+        <include name="StretcherBedCategories"/>
       </run>
     </groups>
     <classes>
       <class name="com.testCases.CrossBrowserTesting">
         <methods>
+          <include name="filterRecords_StretcherBedCategories"/>
+          <include name="stretcherBedCategories"/>
           <include name="reportsGeneration"/>
+          <include name="urlLaunch" invocation-numbers="0"/>
           <include name="afterClass"/>
-          <include name="UnitAndRoleAllocation" invocation-numbers="0"/>
+          <include name="sortingAndDeleting_StrBedCat"/>
         </methods>
       </class> <!-- com.testCases.CrossBrowserTesting -->
     </classes>

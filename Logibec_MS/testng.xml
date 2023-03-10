@@ -6,13 +6,13 @@
 		<run>
 			<include name="Common"></include>
 			
-			<include name="Users"></include>
+			<include name="StretcherBedCategories"></include>
 					
 			<!--Oct screens -->
 
 			<!--<include name="ClinicalService"></include> 
 			<include name="Users"></include>
-			<include name="ControlPoints"></include>
+			<include name="ControlPoints"></include>	
 			<include name="UsersDoctorsImport"></include>
 			<include name="StretcherBedCategories"></include>
 			<include name="StretcherBed"></include>

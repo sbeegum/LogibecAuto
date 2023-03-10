@@ -663,6 +663,7 @@ public class CrossBrowserTesting extends BaseClass_Logibec {
 		
 		createTest=reports.createTest("Verifying Role Allocation and Unit");	
 		applicationLoginCredentials();
+		sleeps();
 		navigateToUsers();
 		sleeps();
 		if(driver.findElement(By.xpath("//h3[text()='Unité'] | //h3[text()='Unit']")).isDisplayed())
@@ -707,13 +708,13 @@ public class CrossBrowserTesting extends BaseClass_Logibec {
 	
 	//Add all units
 	driver.findElement(By.xpath("//span[text()='urg']//parent::div//parent::div//parent::div//input")).click();
-	pressAndReleaseSpaceKey();
+//	pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='deb']//parent::div//parent::div//parent::div//input")).click();
-	pressAndReleaseSpaceKey();
+//	pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='4e']//parent::div//parent::div//parent::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='3e']//parent::div//parent::div//parent::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//button[contains(text(),'OK')]")).click();
 	//Thread.sleep(7000);
 	clickSaveAndCloseButton();
@@ -760,13 +761,13 @@ public class CrossBrowserTesting extends BaseClass_Logibec {
 	
 		
 	driver.findElement(By.xpath("//span[text()='MEDIAMED']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='PILOTE']//parent::div//parent::div//following-sibling::div//input | //span[text()='PILOT']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='SUPER UTILISATEUR']//parent::div//parent::div//following-sibling::div//input | //span[text()='SUPERUSER']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='AUTRE']//parent::div//parent::div//following-sibling::div//input | //span[text()='OTHER']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	
 	clickSaveButton();
 	sleeps();
@@ -777,13 +778,13 @@ public class CrossBrowserTesting extends BaseClass_Logibec {
 	
 	
 	driver.findElement(By.xpath("//span[text()='MEDIAMED']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='PILOTE']//parent::div//parent::div//following-sibling::div//input | //span[text()='PILOT']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='SUPER UTILISATEUR']//parent::div//parent::div//following-sibling::div//input | //span[text()='SUPERUSER']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	driver.findElement(By.xpath("//span[text()='AUTRE']//parent::div//parent::div//following-sibling::div//input | //span[text()='OTHER']//parent::div//parent::div//following-sibling::div//input")).click();
-	pressAndReleaseSpaceKey();
+	//pressAndReleaseSpaceKey();
 	
 	
 	clickSaveButton();
