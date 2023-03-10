@@ -50,6 +50,7 @@ public class BaseClass_Logibec {
 		if(driver.getPageSource().contains("Do you want to save the data?")|driver.getPageSource().contains("Voulez-vous enregistrer les données?")) {
 
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),' Oui ')] | //span[contains(text(),' Yes ')]"))).click();
+			System.out.println("Test");
 		}
 
 	}
